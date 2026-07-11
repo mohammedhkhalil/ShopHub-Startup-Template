@@ -1,11 +1,12 @@
 ﻿using DAL.Data;
-using DAL.Repositories;
+using DAL.IRepositories;
+using DAL.Models;
 
-namespace DAL.Models
+namespace DAL.Repositories
 {
-    public class OrderHeader : GenericRepository<OrderHeader>
+    public class OrderHeaderRepository : GenericRepository<OrderHeader>, IOrderHeaderRepository
     {
-        public OrderHeader(ApplicationDbContext context) : base(context)
+        public OrderHeaderRepository(ApplicationDbContext context) : base(context)
         {
         }
     }

@@ -1,11 +1,12 @@
 ﻿using DAL.Data;
-using DAL.Repositories;
+using DAL.IRepositories;
+using DAL.Models;
 
-namespace DAL.Models
+namespace DAL.Repositories
 {
-    public class Product : GenericRepository<Product>
+    public class ProductRepository : GenericRepository<Product>, IProductRepository
     {
-        public Product(ApplicationDbContext context) : base(context)
+        public ProductRepository(ApplicationDbContext context) : base(context)
         {
         }
     }

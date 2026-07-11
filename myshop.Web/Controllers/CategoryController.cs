@@ -1,21 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using myshop.DataAccess;
-using myshop.Entities.Models;
+﻿using DAL.Data;
+using DAL.Models;
+using DAL.UnitOfWork;
+using Microsoft.AspNetCore.Mvc;
 
 namespace myshop.Web.Areas.Admin.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public CategoryController(ApplicationDbContext context)
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            var categories = _context.Categories.ToList();
+            var categories = _unitOfWork.Category.GetAll();
             return View(categories);
         }
 
@@ -31,8 +32,8 @@ namespace myshop.Web.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Categories.Add(category);
-                _context.SaveChanges();
+                _unitOfWork.Category.Add(category);
+                _unitOfWork.Save();
                 TempData["Create"] = "Item has Created Successfully";
                 return RedirectToAction("Index");
             }
@@ -42,11 +43,11 @@ namespace myshop.Web.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Edit(int? id)
         {
-            if (id == null | id == 0)
+            if (id == null || id == 0)
             {
-                NotFound();
+              return NotFound();
             }
-            var categoryIndb = _context.Categories.Find(id);
+            var categoryIndb = _unitOfWork.Category.GetById(id.Value);
 
             return View(categoryIndb);
         }
@@ -56,9 +57,9 @@ namespace myshop.Web.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Categories.Update(category);
+                _unitOfWork.Category.Update(category);
 
-                _context.SaveChanges();
+                _unitOfWork.Save();
                 TempData["Update"] = "Data has Updated Successfully";
                 return RedirectToAction("Index");
             }
@@ -68,11 +69,11 @@ namespace myshop.Web.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Delete(int? id)
         {
-            if (id == null | id == 0)
+            if (id == null || id == 0)
             {
-                NotFound();
+                return NotFound();
             }
-            var categoryIndb = _context.Categories.Where(x => x.Id == id).FirstOrDefault();
+            var categoryIndb = _unitOfWork.Category.GetById(id.Value);
 
             return View(categoryIndb);
         }
@@ -80,13 +81,12 @@ namespace myshop.Web.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult DeleteCategory(int? id)
         {
-            var categoryIndb = _context.Categories.FirstOrDefault(x => x.Id == id);
-            if (categoryIndb == null)
+            if (id == null || id == 0)
             {
-                NotFound();
+                return NotFound();
             }
-            _context.Categories.Remove(categoryIndb);
-            _context.SaveChanges();
+            _unitOfWork.Category.Delete(id.Value);
+            _unitOfWork.Save();
             TempData["Delete"] = "Item has Deleted Successfully";
             return RedirectToAction("Index");
         }

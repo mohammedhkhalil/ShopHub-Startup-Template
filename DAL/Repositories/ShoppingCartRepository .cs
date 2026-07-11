@@ -1,11 +1,12 @@
 ﻿using DAL.Data;
-using DAL.Repositories;
+using DAL.IRepositories;
+using DAL.Models;
 
-namespace DAL.Models
+namespace DAL.Repositories
 {
-    public class ShoppingCart : GenericRepository<ShoppingCart>
+    public class ShoppingCartRepository : GenericRepository<ShoppingCart>, IShoppingCartRepository
     {
-        public ShoppingCart(ApplicationDbContext context) : base(context)
+        public ShoppingCartRepository(ApplicationDbContext context) : base(context)
         {
         }
     }
