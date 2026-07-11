@@ -1,0 +1,13 @@
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\bin\Debug\net8.0\DAL.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\bin\Debug\net8.0\DAL.pdb
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\DAL.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\DAL.pdb
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\ref\DAL.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
