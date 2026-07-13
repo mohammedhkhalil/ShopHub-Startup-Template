@@ -85,7 +85,7 @@ namespace myshop.Web.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            _unitOfWork.Category.Delete(id.Value);
+            _unitOfWork.Category.Remove(id.Value);
             _unitOfWork.Save();
             TempData["Delete"] = "Item has Deleted Successfully";
             return RedirectToAction("Index");

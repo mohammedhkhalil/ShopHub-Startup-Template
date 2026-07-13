@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using myshop.Entities.Models;
+﻿using DAL.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace myshop.Web.Controllers

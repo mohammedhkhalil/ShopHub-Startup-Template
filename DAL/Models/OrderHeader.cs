@@ -1,19 +1,12 @@
-﻿namespace DAL.Models
+﻿namespace BLL.DTOs
 {
-    public class OrderHeader
+   public class OrderHeaderDTO
     {
         public int Id { get; set; }
-
         public string ApplicationUserId { get; set; }
-
-        [ValidateNever]
-        public ApplicationUser ApplicationUser { get; set; }
-
         public DateTime OrderDate { get; set; }
         public DateTime ShippingDate { get; set; }
-
         public decimal TotalPrice { get; set; }
-
         public string? OrderStatus { get; set; }
         public string? PaymentStatus { get; set; }
 
