@@ -1,12 +1,21 @@
-﻿namespace BLL.DTOs
+﻿using DAL.Models;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace DAL.Models
 {
-    public class OrderDetailDTO
+    public class OrderDetail
     {
         public int Id { get; set; }
 
         public int OrderHeaderId { get; set; }
+        public OrderHeader OrderHeader { get; set; }
+
         public int ProductId { get; set; }
-        public string ProductName { get; set; }
+        public Product Product { get; set; }
 
         public decimal Price { get; set; }
 
