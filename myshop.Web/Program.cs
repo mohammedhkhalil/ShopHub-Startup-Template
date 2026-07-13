@@ -1,3 +1,4 @@
+using BLL.Mapping;
 using DAL.Data;
 using DAL.Models;
 using DAL.UnitOfWork;
@@ -13,7 +14,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
     builder.Configuration.GetConnectionString("DefaultConnection")
     )) ;
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddIdentity<ApplicationUser,IdentityRole>(
     options=>options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromDays(4)
     ).AddDefaultTokenProviders().AddDefaultUI()

@@ -1,11 +1,4 @@
-﻿using DAL.Models;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace DAL.Models
+﻿namespace DAL.Models
 {
     public class OrderDetail
     {

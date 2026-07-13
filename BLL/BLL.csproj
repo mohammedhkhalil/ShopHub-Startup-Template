@@ -7,23 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\DAL\Models\Category.cs" Link="DTOs\Category.cs" />
-    <Compile Include="..\DAL\Models\OrderDetail.cs" Link="DTOs\OrderDetail.cs" />
-    <Compile Include="..\DAL\Models\OrderHeader.cs" Link="DTOs\OrderHeader.cs" />
-    <Compile Include="..\DAL\Models\Product.cs" Link="DTOs\Product.cs" />
-    <Compile Include="..\DAL\Models\ShoppingCart.cs" Link="DTOs\ShoppingCart.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="16.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="DTOs\" />
   </ItemGroup>
 
 </Project>

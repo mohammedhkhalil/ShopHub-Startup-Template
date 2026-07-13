@@ -1,9 +1,7 @@
-﻿using DAL.Data;
-using DAL.Models;
+﻿using DAL.Models;
 using DAL.UnitOfWork;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using myshop.Entities.ViewModels;
 
 namespace myshop.Web.Areas.Admin.Controllers

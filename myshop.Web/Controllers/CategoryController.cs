@@ -1,5 +1,4 @@
-﻿using DAL.Data;
-using DAL.Models;
+﻿using DAL.Models;
 using DAL.UnitOfWork;
 using Microsoft.AspNetCore.Mvc;
 

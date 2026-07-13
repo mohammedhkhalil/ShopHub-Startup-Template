@@ -11,3 +11,5 @@ D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\ref
 D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\DAL.pdb
 D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\ref\DAL.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+D:\E\courses\dot net community\ShopHub-Startup-Template\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
