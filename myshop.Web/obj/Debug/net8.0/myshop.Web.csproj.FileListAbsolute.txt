@@ -868,7 +868,6 @@ D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Azure.Core.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Azure.Identity.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Humanizer.dll
-D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\JetBrains.Annotations.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
@@ -895,7 +894,6 @@ D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -950,8 +948,6 @@ D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\System.Security.Permissions.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\System.Windows.Extensions.dll
-D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\X.PagedList.dll
-D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\af\Humanizer.resources.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\ar\Humanizer.resources.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\az\Humanizer.resources.dll
@@ -1091,8 +1087,6 @@ D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
@@ -1100,7 +1094,6 @@ D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\BLL.dll
@@ -1136,3 +1129,18 @@ D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\obj\Debug\net
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\obj\Debug\net8.0\myshop.Web.pdb
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\obj\Debug\net8.0\myshop.Web.genruntimeconfig.cache
 D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\obj\Debug\net8.0\ref\myshop.Web.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\AutoMapper.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\System.ClientModel.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\E\courses\dot net community\ShopHub-Startup-Template\myshop.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
