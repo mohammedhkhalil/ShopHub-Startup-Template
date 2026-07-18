@@ -2,7 +2,7 @@
 using DAL.UnitOfWork;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using myshop.Entities.ViewModels;
+using myshop.Web.ViewModels;
 
 namespace myshop.Web.Areas.Admin.Controllers
 {

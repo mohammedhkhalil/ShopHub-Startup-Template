@@ -1,6 +1,7 @@
 using BLL.Mapping;
 using DAL.Data;
 using DAL.Models;
+using DAL.SeedData;
 using DAL.UnitOfWork;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -31,10 +32,11 @@ using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     db.Database.Migrate();
+
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    var seedData = new SeedData(roleManager);
+    await seedData.SeedRolesAsync();
 }
-
-
-
 
 
 // Configure the HTTP request pipeline.

@@ -1,4 +1,5 @@
 ﻿using DAL.Models;
+using System.ComponentModel.DataAnnotations.Schema;
 namespace DAL.Models
 {
     public class OrderHeader
@@ -12,6 +13,7 @@ namespace DAL.Models
         public DateTime OrderDate { get; set; }
         public DateTime ShippingDate { get; set; }
 
+        [Column(TypeName = "decimal(18,2)")]
         public decimal TotalPrice { get; set; }
 
         public string? OrderStatus { get; set; }

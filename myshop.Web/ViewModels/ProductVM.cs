@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace myshop.Entities.ViewModels
+namespace myshop.Web.ViewModels
 {
     public class ProductVM
     {

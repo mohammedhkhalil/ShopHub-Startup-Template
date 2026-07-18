@@ -1,4 +1,6 @@
-﻿namespace DAL.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace DAL.Models
 {
     public class OrderDetail
     {
@@ -9,7 +11,7 @@
 
         public int ProductId { get; set; }
         public Product Product { get; set; }
-
+        [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
 
         public int Count { get; set; }
