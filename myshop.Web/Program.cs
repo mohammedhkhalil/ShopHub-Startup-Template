@@ -18,12 +18,17 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddIdentity<ApplicationUser,IdentityRole>(
     options=>options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromDays(4)
-    ).AddDefaultTokenProviders().AddDefaultUI()
+    ).AddDefaultTokenProviders()//.AddDefaultUI()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
 
 builder.Services.AddHttpContextAccessor();
-
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/Login";
+    options.LogoutPath = "/Account/Logout";
+    options.AccessDeniedPath = "/Account/AccessDenied";
+});
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
@@ -34,8 +39,11 @@ using (var scope = app.Services.CreateScope())
     db.Database.Migrate();
 
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-    var seedData = new SeedData(roleManager);
+    var seedData = new SeedData(roleManager, 
+                builder.Configuration, 
+                scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>());
     await seedData.SeedRolesAsync();
+    await seedData.SeedAdminUserAsync();
 }
 
 
